@@ -5,6 +5,7 @@ name: Code checks
 # the five-way Python matrix. Branch pushes are still covered — via `pull_request`
 # once a PR is open.
 on:
+  workflow_dispatch:
   push:
     branches: [master]
   pull_request:
